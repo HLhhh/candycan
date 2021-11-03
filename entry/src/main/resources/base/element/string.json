@@ -11,6 +11,10 @@
     {
       "name": "mainability_HelloWorld",
       "value": "Hello World"
+    },
+    {
+      "name":"button_Next",
+      "value":"Next"
     }
   ]
 }

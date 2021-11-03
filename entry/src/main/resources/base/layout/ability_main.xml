@@ -16,4 +16,21 @@
         ohos:text_size="40vp"
         />
 
+    <!-- 无上一步的可选操作，则Button组件设置为ohos:text="Next"  -->
+    <Button
+        ohos:id="$+id:button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_button"
+        ohos:below="$+id:text_helloworld"
+        ohos:bottom_padding="8vp"
+        ohos:center_in_parent="true"
+        ohos:left_padding="70vp"
+        ohos:margin="10vp"
+        ohos:right_padding="70vp"
+        ohos:text="$string:button_Next"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="19fp"
+        ohos:top_padding="8vp"/>
+
 </DirectionalLayout>
